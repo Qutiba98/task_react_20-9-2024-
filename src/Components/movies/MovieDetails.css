@@ -1,0 +1,13 @@
+/* MovieDetails.css */
+
+/* يمكن إضافة بعض التخصيصات الإضافية هنا */
+.movie-details {
+  background-color: #f8f9fa; /* خلفية فاتحة لصفحة تفاصيل الفيلم */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.img-fluid {
+  max-height: 100%; /* ضبط ارتفاع الصورة ليتناسب مع العمود */
+  border-radius: 8px;
+}

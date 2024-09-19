@@ -1,0 +1,47 @@
+/* src/components/nav/Nav.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(58, 58, 57);
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Nav.css */
+
+body {
+  padding-top: 56px; /* إضافة الحشو العلوي لتجنب التداخل مع شريط التنقل */
+}
+
+.navbar {
+  margin-bottom: 20px; /* إضافة هامش سفلي إذا لزم الأمر */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f9fa; /* تغيير لون النص إلى لون فاتح ليتناسب مع الخلفية الداكنة */
+}
+
+.navbar-dark .navbar-brand {
+  color: #f8f9fa; /* تغيير لون النص للعلامة التجارية إلى لون فاتح */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #adb5bd; /* تغيير لون النص عند المرور فوقه */
+}

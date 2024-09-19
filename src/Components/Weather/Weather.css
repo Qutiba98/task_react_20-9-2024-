@@ -1,0 +1,35 @@
+.weather-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(104, 104, 103);
+  border-radius: 10px;
+  width: 300px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.city-dropdown {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.weather-info {
+  background-color: rgb(87, 87, 86);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}

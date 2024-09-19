@@ -1,0 +1,15 @@
+/* RecipeList.css */
+
+.recipe-card {
+  background-color: #f8f9fa; 
+  border-radius: 8px;
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.1rem; 
+}

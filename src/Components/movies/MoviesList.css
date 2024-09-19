@@ -1,0 +1,38 @@
+/* MoviesList.css */
+
+/* تعيين خلفية داكنة للبقاء متماشياً مع اللون الأسود الداكن */
+body {
+  background-color: #121212; /* خلفية داكنة للصفحة */
+  color: #e0e0e0; /* نص فاتح لتباين مع الخلفية الداكنة */
+}
+
+.container {
+  margin-top: 2rem; /* تحسين الهامش العلوي */
+}
+
+.card {
+  background-color: #1e1e1e; /* خلفية داكنة للبطاقات */
+  border: 1px solid #333; /* حدود داكنة للبطاقات */
+}
+
+.card-img-top {
+  height: 300px; /* تعيين ارتفاع ثابت للصور */
+  object-fit: cover; /* ضبط الصور لتناسب المساحة المخصصة */
+}
+
+.card-body {
+  text-align: center; /* محاذاة النص في منتصف البطاقة */
+}
+
+.card-title {
+  font-size: 1.1rem; /* تعيين حجم الخط لعنوان الفيلم */
+  color: #f1f1f1; /* لون نص فاتح لعنوان الفيلم */
+}
+
+a.text-decoration-none {
+  text-decoration: none; /* إزالة التزيين الافتراضي للرابط */
+}
+
+a.text-decoration-none:hover {
+  color: #e0e0e0; /* تغيير لون النص عند التمرير فوق الرابط */
+}
